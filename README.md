@@ -29,8 +29,4 @@ This app has been secured by using `Helmet`. Helmet sets HTTP headers appropriat
 
 ### Deployment 🛫
 
-This website has been deployed and can be viewed here:
-
-### Github 👾
-
-This project can be found on github here.
+This website has been deployed and can be viewed here: https://itunes-api-web-app-2023.onrender.com
