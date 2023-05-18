@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: local("PressStart2P-Regular"),
+  url("./PressStart2.ttf");
+  }
+
+.App {
+  text-align: center;
+  font-family: 'PressStart2P-Regular';
+}
+
+body {
+  background-color: black;
+  color:chartreuse
+}
+
+.Card {
+  background-color: rgba(128, 255, 0, 0.19);
+  color: chartreuse;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+}
+
+.CardImg {
+  width: 50%;
+  height: 50%;
+  border: solid 4px rgb(0, 0, 0);
+  margin: 10px
+}
+
+.CardTitle {
+  font-size: 20px;
+}
+
+.mediaTypes {
+  margin: 10px
+}
+
+input[type="radio"] {
+  appearance: none;
+  margin-right: 20px;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+  background-color: CanvasText;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:focus {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+  background-color: rgb(0, 201, 27);
+}
+
+.searchBar {
+  border: 3px solid chartreuse;
+  background-color: transparent;
+  margin-right: 3px;
+  width: 200px;
+  color: chartreuse;
+  font-family: 'PressStart2P-Regular';
+}
+
+.search {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.limit {
+  color: chartreuse;
+  background-color: transparent;
+  border: none;
+  font-family: 'PressStart2P-Regular';
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+
+.submit {
+  background-color: chartreuse;
+  border: none;
+  font-family: 'PressStart2P-Regular';
+  padding: 5px;
+  margin-bottom: 90px;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+.row {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  border: 1px solid black; 
+  width: 50%;
+  margin: auto;
+  /* background-color: deeppink; */
+
+}
